@@ -38,3 +38,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
+
+nav:
+  - Home: index.md
+  - Getting Started: getting_started.md
+  - Formats: file_formats.md
+  - Tools: tools.md
