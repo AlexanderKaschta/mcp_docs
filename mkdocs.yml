@@ -1,9 +1,7 @@
-site_name: Documentation for Mission Control Paramedic (unofficial)
-site_url: https://alexanderkaschta.github.io/mcp_docs/
-site_dir: 'site'
+site_name: Dokumentation für Mission Control Paramedic (inoffiziell)
 theme:
   name: material
-  language: en
+  language: de
   features:
     - search.suggest
     - search.highlight
@@ -42,15 +40,6 @@ markdown_extensions:
       generic: true
 
 nav:
-  - Home: index.md
-  - Getting Started: getting_started.md
-  - Formats: file_formats.md
-  - Tools: tools.md
+  - Startseite: index.md
+  - Einführung: getting_started.md
   - FAQ: faq.md
-
-extra:
-  alternate:
-    - link: /
-      name: en - English
-    - link: /de/
-      name: de - Deutsch
