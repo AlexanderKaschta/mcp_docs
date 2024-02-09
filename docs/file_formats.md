@@ -41,7 +41,13 @@ This file should give an overview over the different file formats used in MCP.
 ]
 ```
 
-## Mission Keywords
+!!! info
+
+    Auf dem offiziellem Blog von Mission Control Paramedic gibt es auch einen Beitrag zum Import und Export von 
+    Ortsdaten. Weitere Informationen zu diesem Thema können unter 
+    [https://www.mission-control-paramedic.de/posts/import-und-export-von-ortsdaten](https://www.mission-control-paramedic.de/posts/import-und-export-von-ortsdaten) gefunden werden.
+
+## Einsatzstichwörter
 
 **File type** `CSV`
 
@@ -54,7 +60,7 @@ Fraktur,Knochenbruch
 Schnittverletzung,
 ```
 
-## Mission Resources
+## Einsatzmittel
 
 **File type** `CSV`
 
