@@ -44,3 +44,7 @@ Computer starten. Dies könnt ihr z.B. mit einem Doppelklick auf die auf dem Des
 machen oder einen passenden Eintrag im Startmenü nutzen.
 
 ## Verbindungsaufbau und Anmeldung
+
+Nach dem Start der Anwendung werdet ihr mit folgendem Fenster begrüßt.
+
+![Startbildschirm von Mission Control Paramedic](assets/Startbildschirm.png)
