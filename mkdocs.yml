@@ -40,6 +40,9 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
+plugins:
+  - glightbox
+
 nav:
   - Startseite: index.md
   - Einführung:
