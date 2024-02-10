@@ -62,3 +62,26 @@ abgeschlossen.
     der oben stehende Befehl ausgeführt wird. Mehr ist nicht zu beachten.
 
 ### Verwendung
+
+Für die Verwendung der Software wird erneut ein Terminal, Kommandozeile oder Eingabeforderung benötigt. Dies kann die 
+gleiche Instanz sein, wie sie auch für die Installation verwendet wurde, es ist aber kein muss. Dort gibst du den 
+folgenden Befehl ein,
+
+```shell
+python3 -m mcp_tools
+```
+
+um die Anwendung zu starten. Da es sich um eine Konsolenanwendung handelt, wird sich alles Weitere auch im 
+Konsolenfenster passieren.
+
+Als Erstes wirst du gefragt, welche der gelisteten Aktionen du ausführen möchtest. Für den hier besprochenen Export von
+OpenStreetMaps-Daten muss `OpenStreetMaps-Export` ausgewählt werden. Als Nächstes wirst du nach dem Namen der Stadt 
+gefragt, für welche du Daten exportieren möchtest. Stelle dabei sicher, dass du den Namen richtig schreibst und dass es 
+möglicherweise zu Fehler kommen kann, wenn ein ungültiger Name eingegeben wird. Im Hintergrund wird in den 
+OpenStreetMaps-Daten nach der Stadt gesucht und alle dazugehörigen Stadtteile ermittelt. Für jeden Stadtteil erfolgt 
+dann eine weitere Abfrage, um alle Straßen des Ortsteils zu ermitteln. Nun werden noch die doppelten Straßeneinträge je
+Stadtteil entfernt. Die sich daraus ergebenden Daten werden dann in das passende Format für MCP abgespeichert. Die Datei
+trägt den Namen `MCP-Orte-Adressen.json` und liegt in dem Ordner, in dem das Programm ausgeführt wird.
+
+Für die Nutzung dieser Daten muss die Datei nur noch in Mission Control Paramedic importiert werden, dann stehen sie zur
+Verfügung.
