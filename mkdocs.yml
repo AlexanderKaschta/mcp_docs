@@ -42,7 +42,10 @@ markdown_extensions:
 
 nav:
   - Startseite: index.md
-  - Einführung: getting_started.md
+  - Einführung:
+      - Erste Schritte: getting_started.md
+      - Installation: installation.md
+      - Fortgeschrittene: advanced.md
   - Tools: tools.md
   - FAQ: faq.md
   - Technische Dokumentation: file_formats.md
