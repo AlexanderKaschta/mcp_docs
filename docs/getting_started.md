@@ -43,8 +43,60 @@ Um Mission Control Paramedic (MCP) verwenden zu können, müsst ihr die gleichna
 Computer starten. Dies könnt ihr z.B. mit einem Doppelklick auf die auf dem Desktop hinterlegte Verknüpfung zu MCP 
 machen oder einen passenden Eintrag im Startmenü nutzen.
 
-## Verbindungsaufbau und Anmeldung
+## Verbindungsaufbau
 
 Nach dem Start der Anwendung werdet ihr mit folgendem Fenster begrüßt.
 
 ![Startbildschirm von Mission Control Paramedic](assets/Startbildschirm.png)
+
+Nun hat man zwei Optionen zur Auswahl, wie man MCP verwenden kann. Mit der ersten Option kann man die lokale MCP-Instanz
+verwenden, wo dann die Daten auch auf dem Computer gespeichert werden. Gleichzeitig stellt man die eigene MCP-Instanz 
+auch im lokalen Netzwerk bereit, sodass sich andere MCP-Instanzen damit verbinden können, wenn das Netzwerk entsprechend
+freigeschaltet ist.
+
+Alternativ kann man sich mit einer anderen MCP-Instanz verbinden, wo dann die Daten für MCP nutzt, die auf einem anderen
+Computer gespeichert werden. Damit ihr euch mit einer anderen MCP-Instanz verbinden könnt, benötigt ihr die IP-Adresse
+des anderen Computers, um die Verbindung aufzubauen. MCP speichert außerdem immer die letzte Adresse, mit der man sich
+verbunden hat.
+
+Im Regelfall wird die MCP-Instanz von der Einsatzleitung bzw. den Führungskräften bereitgestellt, sodass du dich als 
+Helfer mit dieser Remote-Instanz nur verbinden musst. Da dies meist schon vorbereitet ist und auch getestet wurde, ist
+es recht wahrscheinlich, dass dort schon die richtige Adresse steht. Sollte dort nichts stehen, du dir unsicher sein 
+oder keine Verbindung mit der dort stehenden Instanz möglich sein, dann wende dich bitte an deine zuständige 
+Führungskraft.
+
+!!! bug "Bug"
+
+    Achte beim Verbinden mit Remote-Rechnern auf die Adresse bzw. Url, welche im Feld steht. Sollte dort 
+    `https://127.0.0.1:443` stehen, dann wurde sich beim letzten Mal mit der lokalen Instanz verbunden und nicht mit 
+    einer Remote-Instanz.
+
+## Anmeldung
+
+Sobald du dich erfolgreich mit einer MCP-Instanz verbunden hast, wirst du nach gültigen Zugangsdaten für die jeweilige
+MCP-Instanz gefragt. Diese Authentifizierung ist notwendig, da mit besonders schützenwerten persönlichen Daten 
+gearbeitet wird und diese vor unberechtigtem Zugriff geschützt werden müssen. Die Anmeldemaske sieht wie folgt aus.
+
+![Anmeldemaske von Mission Control Paramedic](assets/Anmeldebildschirm.png)
+
+!!! note "Anmerkung"
+
+    Die Wiederherstellung des Zugangs eines Kontos mit verlorenen Zugangsdaten ist möglich. Details zur Einrichtung 
+    davon werden im Abschnitt zur Installation behandelt. Die Wiederherstellung selbst wird im Fortgeschrittenen Bereich
+    erklärt.
+
+## Startseite
+
+![Startseite von Mission Control Paramedic](assets/Startseite.png)
+
+## Verwaltung von Sanitätsdiensten
+
+![Sanitätsdienstverwaltung](assets/Sandienst_Verwaltung.png)
+
+## Dashboard eines Sanitätsdienstes
+
+![Dashboard eines Sanitätsdienstes](assets/Dashboard.png)
+
+## Patientenübersicht
+
+![Patientenübersicht](assets/Patientenuebersicht.png)
