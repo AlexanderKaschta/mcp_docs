@@ -79,6 +79,11 @@ gearbeitet wird und diese vor unberechtigtem Zugriff geschützt werden müssen. 
 
 ![Anmeldemaske von Mission Control Paramedic](assets/Anmeldebildschirm.png)
 
+Ihr solltet die Anmeldedaten von eurer Führungskraft erhalten, solltet ihr sie sonst nicht schon kennen. Falls dies 
+nicht der Fall ist, fragt bei deiner Führungskraft einfach nach.
+
+Nach einer erfolgreichen Anmeldung landet ihr dann auf der Startseite.
+
 !!! note "Anmerkung"
 
     Die Wiederherstellung des Zugangs eines Kontos mit verlorenen Zugangsdaten ist möglich. Details zur Einrichtung 
