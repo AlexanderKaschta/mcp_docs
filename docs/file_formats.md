@@ -1,14 +1,14 @@
-# File formats
+# Technische Dokumentation
 
-This file should give an overview over the different file formats used in MCP.
+## Dateiformate
 
-## Places and Locations
+### Adressen und Objekte
 
-**File type** `JSON`
+**Dateityp:** `JSON`
 
-### Structure
+#### Aufbau
 
-```json title="Example file"
+```json title="Beispieldatei"
 [
   {
     "name": "Karlsruhe-Innenstadt",
@@ -47,26 +47,26 @@ This file should give an overview over the different file formats used in MCP.
     Ortsdaten. Weitere Informationen zu diesem Thema können unter 
     [https://www.mission-control-paramedic.de/posts/import-und-export-von-ortsdaten](https://www.mission-control-paramedic.de/posts/import-und-export-von-ortsdaten) gefunden werden.
 
-## Einsatzstichwörter
+### Einsatzstichwörter
 
-**File type** `CSV`
+**Dateityp:** `CSV`
 
-### Structure
+#### Aufbau
 
-```text
+```text title="Beispieldatei"
 Keyword,Synonyms
 Alkoholvergiftung,"Alkohol, C2, C2-Intox"
 Fraktur,Knochenbruch
 Schnittverletzung,
 ```
 
-## Einsatzmittel
+### Einsatzmittel
 
-**File type** `CSV`
+**Dateityp:** `CSV`
 
-### Structure
+#### Aufbau
 
-```text
+```text title="Beispieldatei"
 Name,Type
 Auto A,KTW
 Auto B,NKTW
