@@ -94,6 +94,65 @@ Nach einer erfolgreichen Anmeldung landet ihr dann auf der Startseite.
 
 ![Startseite von Mission Control Paramedic](assets/Startseite.png)
 
+Auf der Startseite von Mission Control Paramedic sieht ihr nicht viel, ihr bekommt aber einen guten Überblick über das
+Interface. Dieses ist wie folgt aufgebaut:
+
+An der linken Seite findet ihr die Navigationsleiste. Diese besteht aus verschiedene Icons bzw. Piktogrammen, die euch 
+zu den unterschiedlichen Funktionen führen. Über das unterste Piktogramm in Form einer Liste lässt sich die 
+Navigationsleiste ausklappen, sodass ihr auch die Namen der folgenden Einträge lesen könnt:
+
+- Home
+- Einsatz-Dashboard
+- Patienten-Dashboard
+- Einsatztagebuch
+- Sanitätsdienste
+- Einsatzmittel
+- Orte
+- Einsatzschlagworte
+- Einstellungen
+- Schalter ein- und ausklappen der Navigationsleiste, wo im ausgeklappten Zustand auch noch Verbindungsinformationen 
+  angezeigt werden.
+
+In den folgenden Abschnitten wird euch das Einsatz-Dashboard, das Patienten-Dashboard und der Eintrag zu den 
+Sanitätsdiensten erklärt, die ihr auch am meisten verwenden werdet. Im Einsatztagebuch dokumentieren die Führungskräfte
+den Einsatz, weshalb man diese Funktion als Helfer normalerweise nicht benötigt. Die anderen Funktionen sind für die 
+Verwaltung der Daten in Mission Control Paramedic da. Da ihr im Regelfall eine MCP-Instanz mit einem Sanitätsdienst von
+euren Führungskräften bereitgestellt bekommt, sollten die Daten auch schon passend eingepflegt sein und ihr nichts mehr
+daran ändern müssen.
+
+!!! warning "Achtung"
+
+    Sei nicht verwundert, wenn die drei Einträge zum Einsatz-Dashboard, Patienten-Dashboard und Einsatztagebuch 
+    ausgegraut bzw. deaktiviert sind, wie es im Bild oben auch dargestellt ist. Dies ist kein Fehler, sondern liegt nur
+    daran, dass es aktuell noch keinen Sanitätsdienst gibt, der aktiv läuft. Sollte dies nicht der Fall sein, dann wende
+    dich an deine Führungskraft, um dies zu klären.
+
+!!! note "Anmerkung"
+    
+    Die Einträge zu den Einsatzmitteln, den Orten, den Einsatzschlagwörtern und dem Einsatztagebuch werden im 
+    fortgeschrittenem Bereich erklärt.
+
+Zusätzlich zur Navigationsleiste gibt es oben noch eine Statusleiste. Rechts in der Ecke wird euch die aktuelle Uhrzeit
+angezeigt und daneben findet ihr ein Profil-Icon. Wenn ihr darauf klickt, öffnet sich ein kleines Menü dazu. Dort 
+findet ihr einen Eintrag mit eurem Nutzernamen, womit ihr auf eurer Nutzerprofil kommen könnt, und einem Eintrag, womit
+ihr euch abmelden könnt. Sollte euer Benutzer Administrator-Rechte in Mission Control Paramedic haben, so wird es noch
+einen weiteren Eintrag "Team" zur Verwaltung des Teams bzw. aller Benutzer geben.
+
+!!! tip "Tipp"
+
+    Mit einem Klick auf das MCP-Logo oben links in der Statusleiste kommt ihr immer auf die Startseite von Mission 
+    Control Paramedic zurück, egal wo ihr euch in der Software befindet.
+
+!!! note "Anmerkung"
+
+    Die Benutzer-/Teamverwaltung wird im fortgeschrittenem Bereich erklärt.
+
+Wenn ihr auf der Startseite noch etwas herunterscrollt, so werdet ihr noch ein paar Hinweise für die Nutzung von Mission
+Control Paramedic finden als auch ein FAQ mit den häufig gestellten Fragen finden.
+
+Es empfehlt sich, vor Beginn der Arbeit im Einsatz einen Blick über die Übersichtsseite der Sanitätsdienste zu werfen. 
+Klicke dazu einfach auf den Eintrag "Sanitätsdienste" und alles Weitere dazu wird im nächsten Abschnitt erklärt.
+
 ## Verwaltung von Sanitätsdiensten
 
 ![Sanitätsdienstverwaltung](assets/Sandienst_Verwaltung.png)
