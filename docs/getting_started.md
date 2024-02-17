@@ -157,6 +157,13 @@ Klicke dazu einfach auf den Eintrag "Sanitätsdienste" und alles Weitere dazu wi
 
 ![Sanitätsdienstverwaltung](assets/Sandienst_Verwaltung.png)
 
+!!! warning "Achtung"
+
+    Es kann sehr gut sein, dass mehrere Sanitätsdienste gleichzeitig auf einer MCP-Instanz laufen, z.B. da gleichzeitig
+    mehrere Dienste stattfinden oder zusätzlich ein weiterer Test-Dienst angelegt wurde, damit Personen MCP testen 
+    können. Stelle sicher, dass du den richtigen Sanitätsdienst auswählst, damit du die dazugehörigen Patienten- und 
+    Einsatz-Dashboards als auch das Einsatztagebuch sehen kannst. 
+
 ## Dashboard eines Sanitätsdienstes
 
 ![Dashboard eines Sanitätsdienstes](assets/Dashboard.png)
