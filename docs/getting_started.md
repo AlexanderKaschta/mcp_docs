@@ -155,14 +155,40 @@ Klicke dazu einfach auf den Eintrag "Sanitätsdienste" und alles Weitere dazu wi
 
 ## Verwaltung von Sanitätsdiensten
 
+Auf der Seite zu den Sanitätsdiensten dient zur Verwaltung von Sanitätsdienste. Dort siehst du in der Liste, welche 
+Sanitätsdienste alles auf der MCP-Instanz gespeichert sind, mit welcher du dich vorher verbunden hast, wie es auch im 
+Bild zu sehen ist.
+
 ![Sanitätsdienstverwaltung](assets/Sandienst_Verwaltung.png)
+
+Zu jedem Sanitätsdienst kann man sich dort in der Ansicht die Details wie z.B. den Namen des Dienstes, den Namen der 
+Einsatzleiterin oder des Einsatzleiters oder auch den Einsatzort sehen.
+
+Wie auch auf dem Bild zu erkennen ist, haben die Einträge auf der linken Seite unterschiedliche Farben. Wenn ein 
+Sanitätsdienst mit grauer Schrift dort steht, dann heißt es, dass dieser Sanitätsdienst schon beendet wurde. Ein Eintrag
+mit weißer Schrift und einem grünen Punkt neben an bedeutet, dass dies ein aktiver Sanitätsdienst ist, welcher aktuell
+läuft. Einträge mit weißer Schrift und ohne grünen Punkt sind schon angelegt, aber noch nicht gestartet worden. Dies 
+kann zum Beispiel der Fall sein, wenn der Sanitätsdienst schon am Vortag angelegt wurde, um gut vorbereitet in den 
+eigentlichen Sanitätsdienst gehen zu können.
+
+Im Regelfall sollte der Sanitätsdienst von deiner Führungskraft schon angelegt worden sein. Sollte dies nicht der Fall
+sein, so wende dich bitte an sie und kläre dies. Als Helferin oder Helfer hast du auf dieser Übersichtsseite nur die 
+Aufgabe sicherzustellen, dass der richtige Sanitätsdienst im MCP ausgewählt ist, der gerade stattfindet. 
 
 !!! warning "Achtung"
 
     Es kann sehr gut sein, dass mehrere Sanitätsdienste gleichzeitig auf einer MCP-Instanz laufen, z.B. da gleichzeitig
     mehrere Dienste stattfinden oder zusätzlich ein weiterer Test-Dienst angelegt wurde, damit Personen MCP testen 
     können. Stelle sicher, dass du den richtigen Sanitätsdienst auswählst, damit du die dazugehörigen Patienten- und 
-    Einsatz-Dashboards als auch das Einsatztagebuch sehen kannst. 
+    Einsatz-Dashboards als auch das Einsatztagebuch sehen kannst.
+
+Wenn du den richtigen Sanitätsdienst ausgewählt hast, dann kannst du direkt über den Knopf "Dashboard" oder auch dem
+Eintrag "Einsatz-Dashboard" im Menü nutzen, um zum Dashboard des Einsatzes zu kommen. Dieses wird im nächsten Abschnitt
+erklärt.
+
+!!! note "Anmerkung"
+
+    Die Erstellung und Planung von Sanitätsdiensten wird im fortgeschrittenem Bereich erklärt.
 
 ## Dashboard eines Sanitätsdienstes
 
