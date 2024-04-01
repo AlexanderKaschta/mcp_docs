@@ -195,6 +195,10 @@ erklärt.
 Das Dashboard über den Sanitätsdienst gibt euch den Überblick über den gesamten Einsatz und bietet deinen
 Führungskräften die ideale Möglichkeit, alle wichtigen Informationen direkt auf einen Blick zu finden.
 
+Im Einsatz wird diese Ansicht hauptsächlich von der Einsatzleitung als auch der Funkeinsatzleitung genutzt, falls der 
+Dienst groß genug ist, dass diese aufgeteilt ist. Solltest du nicht Teil der Einsatzleitung sein, so wirst du aller 
+voraussicht auch diese Ansicht nicht benötigen.
+
 Dieses Interface teilt sich in drei Bereiche auf. Oben rechts gibt es eine Ansicht des Einsatztagebuchs. Dort werden
 immer die neusten Einträge angezeigt, die eingetragen werden. Links daneben gibt es einen Bereich mit einer Übersicht
 über alle aktuell laufende Einsätze. Diese können dort nicht nur angelegt werden, sondern es können dann auch Daten über
@@ -221,10 +225,32 @@ Jede Änderung eines FMS-Status-Codes für ein Einsatzmittel erzeugt einen Eintr
     Die Farben der einzelnen FMS-Status-Codes als auch die Tastenkürzel können in den Einstellungen nach belieben 
     geändert werden!
 
-!!! warning "Achtung"
 
-    An diesem Abschnitt wird aktuell gearbeitet. Dieser kann daher gegebenenfalls nicht vollständig sein oder auch 
-    Fehler enthalten.
+Wird nun deinen Führungskräften bzw. der Einsatzleitung ein Einsatz gemeldet, so kann diese direkt einen Einsatz über
+den Knopf "Einsatz anlegen" anlegen. Dabei ist es egal, ob dieser Einsatz von der Veranstaltungsleitung, einem
+Security-Team oder doch direkt vom eigenem Fußteam per Funk gemeldet wird. Details zur Meldung als auch Daten zur
+Patientin oder zum Patienten können dort direkt eingegeben werden. Falls dort ein Einsatzmittel (z.B. Fußteam) direkt
+vor Ort ist oder diese als Einsatzmittel zu diesem Einsatz disponiert werden, so kann das Einsatzmittel direkt aus der
+unteren Übersicht per Drag-and-Drop hochgezogen werden und wird diesem Einsatz zugeordnet. Dieses Einsatzmittel bleibt
+außerdem unverändert unten in der Übersicht stehen, sodass es nicht verloren gehen kann. Natürlich können auch mehrere
+Einsatzmittel dem Einsatz zugeordnet werden, falls der Bedarf dafür da ist.
+
+Laufende Einsätze können in dieser Ansicht auch wieder geschlossen werden. Dafür muss der passende Einsatz aus der Liste
+ausgewählt werden, falls es mehrere gibt, und kann dann über den entsprechenden Stopp-Knopf beendet werden. Sollten zu
+diesem Zeitpunkt noch Einsatzmittel zu diesem Einsatz zugeordnet sein, so werden sie beim Beenden des Einsatzes aus dem
+Einsatz entfernt und auf den Status 1, einsatzbereit, gesetzt. Dieses Verhalten passiert auch, wenn Einsatzmittel
+manuell per Drag-and-Drop aus dem Einsatz entfernt werden, auch wenn dieser noch aktiv ist.
+
+Sollte es bei einem Einsatz Patienten geben, so werden diese, wie schon vorhin erwähnt, auch direkt im Einsatz 
+angelegt. Falls diese Patienten nicht direkt vor Ort versorgt werden können und dann zur Sanitätsstation gebracht 
+werden, so kann dann direkt in der Ansicht auch direkt der Transport und das Transportziel eingetragen werden. Falls ihr
+eure Sanitätsstation als eigene "Lage" in der Patientenübersicht eingetragen habt und die Sanitätsstation als Ziel eures
+Transportes auswählt, so erscheint die Patientin oder der Patient dann direkt in der Patientenübersicht der 
+Sanitätsstation.
+
+Es kommt durchaus vor, dass sich Patientinnen und Patienten auch direkt bei der Sanitätsstation vorstellen, dann muss 
+dafür kein Einsatz angelegt werden. Diese können auch direkt in der Patientenübersicht angelegt werden. Alle Details zum
+Vorgehen als auch die Patientenübersicht selbst werden im nächsten Abschnitt erklärt.
 
 ## Patientenübersicht
 
