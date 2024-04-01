@@ -221,6 +221,16 @@ Jede Änderung eines FMS-Status-Codes für ein Einsatzmittel erzeugt einen Eintr
     Die Farben der einzelnen FMS-Status-Codes als auch die Tastenkürzel können in den Einstellungen nach belieben 
     geändert werden!
 
+!!! warning "Achtung"
+
+    An diesem Abschnitt wird aktuell gearbeitet. Dieser kann daher gegebenenfalls nicht vollständig sein oder auch 
+    Fehler enthalten.
+
 ## Patientenübersicht
+
+!!! warning "Achtung"
+
+    An diesem Abschnitt wird aktuell gearbeitet. Dieser kann daher gegebenenfalls nicht vollständig sein oder auch 
+    Fehler enthalten.
 
 ![Patientenübersicht](assets/Patientenuebersicht.png)
