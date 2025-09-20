@@ -41,7 +41,7 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
-copyright: Copyright &copy; 2024 Alexander Kaschta | Verfügbar unter der CC BY 4.0
+copyright: Copyright &copy; 2024 - 2025 Alexander Kaschta | Verfügbar unter der CC BY 4.0
 
 plugins:
   - glightbox

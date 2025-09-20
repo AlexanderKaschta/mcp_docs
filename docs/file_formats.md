@@ -7,6 +7,15 @@
     An diesem Abschnitt wird aktuell gearbeitet. Dieser kann daher gegebenenfalls nicht vollständig sein oder auch 
     Fehler enthalten.
 
+Alle von MCP verarbeiteten Dateien müssen im [UTF-8](https://de.wikipedia.org/wiki/UTF-8) kodiert werden, damit diese
+korrekt importiert werden können. Dies gilt für alle Dateiformat.
+
+!!! bug "Inkompatibilität"
+
+    Es muss darauf geachtet werden, dass man die Daten in UTF-8 ohne Byte-Order-Mark (BOM) speichert. Dateien, die in 
+    UTF-8 mit BOM gespeichert wurden, können von nicht richtig eingelesen werden, sodass jeglicher Import dieser Dateien
+    mit einem Fehler endet.
+
 ### Adressen und Objekte
 
 **Dateityp:** `JSON`
@@ -77,3 +86,9 @@ Auto A,KTW
 Auto B,NKTW
 Auto C,RTW
 ```
+
+!!! warning "Achtung"
+
+    In der Datei mit den Einsatzmitteln darf kein Name mehrfach auftauchen. Wird eine Datei importiert, die mindestens 
+    einen Eintrag enthält, welcher mindestens doppelt vorkommt, so kommt es zu einer Datenverletzung mit Fehlermeldung
+    und die entsprechende Datei kann nicht importiert werden.
