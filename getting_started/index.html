@@ -1,0 +1,1057 @@
+<!DOCTYPE html><html lang="de" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../installation/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Erste Schritte - Dokumentation für Mission Control Paramedic (inoffiziell)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#einfuhrung" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href=".." title="Dokumentation für Mission Control Paramedic (inoffiziell)" class="md-header__button md-logo" aria-label="Dokumentation für Mission Control Paramedic (inoffiziell)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Dokumentation für Mission Control Paramedic (inoffiziell)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Erste Schritte
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Hauptnavigation" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Startseite
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Einführung
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tools/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tools
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../faq/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  FAQ
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../file_formats/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Technische Dokumentation
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Dokumentation für Mission Control Paramedic (inoffiziell)" class="md-nav__button md-logo" aria-label="Dokumentation für Mission Control Paramedic (inoffiziell)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    Dokumentation für Mission Control Paramedic (inoffiziell)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Startseite
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Einführung
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Einführung
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Erste Schritte
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Erste Schritte
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#was-ist-mcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Was ist MCP?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wann-verwende-ich-mcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wann verwende ich MCP?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mcp-starten" class="md-nav__link">
+    <span class="md-ellipsis">
+      MCP starten
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verbindungsaufbau" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verbindungsaufbau
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anmeldung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anmeldung
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#startseite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Startseite
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verwaltung-von-sanitatsdiensten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verwaltung von Sanitätsdiensten
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dashboard-eines-sanitatsdienstes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dashboard eines Sanitätsdienstes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#patientenubersicht" class="md-nav__link">
+    <span class="md-ellipsis">
+      Patientenübersicht
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../advanced/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fortgeschrittene
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../file_formats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Technische Dokumentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#was-ist-mcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Was ist MCP?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wann-verwende-ich-mcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wann verwende ich MCP?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mcp-starten" class="md-nav__link">
+    <span class="md-ellipsis">
+      MCP starten
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verbindungsaufbau" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verbindungsaufbau
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anmeldung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anmeldung
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#startseite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Startseite
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verwaltung-von-sanitatsdiensten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verwaltung von Sanitätsdiensten
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dashboard-eines-sanitatsdienstes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dashboard eines Sanitätsdienstes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#patientenubersicht" class="md-nav__link">
+    <span class="md-ellipsis">
+      Patientenübersicht
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="einfuhrung">Einführung<a class="headerlink" href="#einfuhrung" title="Permanent link">¶</a></h1>
+<h2 id="was-ist-mcp">Was ist MCP?<a class="headerlink" href="#was-ist-mcp" title="Permanent link">¶</a></h2>
+<p>Mission Control Paramedic, kurz MCP, ist eine Einsatzleitsoftware für die Führung und Organisation von Sanitätsdiensten.
+Fokus der Software ist es, intuitiv und übersichtlich zu sein, sodass in jeder Situation der Überblick behalten werden
+kann.</p>
+<p>Die Software ist im Rahmen der Initiative "Coding for Charity" von <a href="https://www.inovex.de/">inovex</a> in Kooperation mit
+dem Deutschen Roten Kreuz entstanden.</p>
+<p>Zu den weiteren Vorteilen der Software gehört, dass diese kostenfrei ist und nicht nur unter Windows läuft, sondern auch
+anderen Plattformen wie z.B. macOS unterstützt.</p>
+<h2 id="wann-verwende-ich-mcp">Wann verwende ich MCP?<a class="headerlink" href="#wann-verwende-ich-mcp" title="Permanent link">¶</a></h2>
+<p>MCP wird dir auf einem kleinen Sanitätsdienst mit zwei Personen auf einer Sportveranstaltung recht wahrscheinlich nicht
+begegnen, denn recht wahrscheinlich habt ihr keinen Computer dabei und euch wird euch keinen wirklichen Mehrwert
+bringen.</p>
+<p>Eine Einsatzleitsoftware ist erst hilfreich, sobald ihr einen Einsatz oder Sanitätsdienst mit Führungskräften habt.
+Dabei ist es egal, ob dies ein kleiner Dienst mit einfach nur drei Fußteams ist oder doch so große Veranstaltung, wie
+z.B. Fußballspiele der ersten und zweiten Fußballliga oder Festivals. Erst in dieser Situation haben eure Führungskräfte
+die Möglichkeit, die gesamte Situation mit einer Einsatzleitsoftware im Überblick zu behalten und zu koordinieren,
+während die Teams an Hilfskräften einfach ihren Aufgaben nachgehen können.</p>
+<h2 id="mcp-starten">MCP starten<a class="headerlink" href="#mcp-starten" title="Permanent link">¶</a></h2>
+<p>Als Helferin oder Helfer kommt man schnell in die Situation auf einem Dienst, Mission Control Paramedic zu verwenden. In
+diesen Fällen ist häufig die entsprechende Infrastruktur und Geräte, wie z.B. Internet und ein Computer, bereits
+vorhanden, aufgebaut und eingerichtet ist.</p>
+<div class="admonition note">
+<p class="admonition-title">Notiz</p>
+<p>In diesem Abschnitt wird sich auf die Benutzung von MCP für eine Helferin oder einen Helfer konzentriert. 
+Anleitungen für die Installation und Einrichtung von Mission Control Paramedic (MCP) als die Anleitung für das
+Führungspersonal kann in den entsprechenden Abschnitten gefunden werden.</p>
+</div>
+<p>Zuallererst müsst ihr euren Computer bereit machen, also ihn einschalten und euch anmelden. Für die weitere Anleitung
+wird angenommen, dass ihr erfolgreich euren Computer gestartet und angemeldet habt.</p>
+<p>Um Mission Control Paramedic (MCP) verwenden zu können, müsst ihr die gleichnamige Anwendung auf dem entsprechenden
+Computer starten. Dies könnt ihr z.B. mit einem Doppelklick auf die auf dem Desktop hinterlegte Verknüpfung zu MCP
+machen oder einen passenden Eintrag im Startmenü nutzen.</p>
+<h2 id="verbindungsaufbau">Verbindungsaufbau<a class="headerlink" href="#verbindungsaufbau" title="Permanent link">¶</a></h2>
+<p>Nach dem Start der Anwendung werdet ihr mit folgendem Fenster begrüßt.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/Startbildschirm.png" data-desc-position="bottom"><img alt="Startbildschirm von Mission Control Paramedic" src="../assets/Startbildschirm.png"></a></p>
+<p>Nun hat man zwei Optionen zur Auswahl, wie man MCP verwenden kann. Mit der ersten Option kann man die lokale MCP-Instanz
+verwenden, wo dann die Daten auch auf dem Computer gespeichert werden. Gleichzeitig stellt man die eigene MCP-Instanz
+auch im lokalen Netzwerk bereit, sodass sich andere MCP-Instanzen damit verbinden können, wenn das Netzwerk entsprechend
+freigeschaltet ist.</p>
+<p>Alternativ kann man sich mit einer anderen MCP-Instanz verbinden, wo dann die Daten für MCP nutzt, die auf einem anderen
+Computer gespeichert werden. Damit ihr euch mit einer anderen MCP-Instanz verbinden könnt, benötigt ihr die IP-Adresse
+des anderen Computers, um die Verbindung aufzubauen. MCP speichert außerdem immer die letzte Adresse, mit der man sich
+verbunden hat.</p>
+<p>Im Regelfall wird die MCP-Instanz von der Einsatzleitung bzw. den Führungskräften bereitgestellt, sodass du dich als
+Helfer mit dieser Remote-Instanz nur verbinden musst. Da dies meist schon vorbereitet ist und auch getestet wurde, ist
+es recht wahrscheinlich, dass dort schon die richtige Adresse steht. Sollte dort nichts stehen, du dir unsicher sein
+oder keine Verbindung mit der dort stehenden Instanz möglich sein, dann wende dich bitte an deine zuständige
+Führungskraft.</p>
+<div class="admonition bug">
+<p class="admonition-title">Bug</p>
+<p>Achte beim Verbinden mit Remote-Rechnern auf die Adresse bzw. Url, welche im Feld steht. Sollte dort 
+<code>https://127.0.0.1:443</code> stehen, dann wurde sich beim letzten Mal mit der lokalen Instanz verbunden und nicht mit 
+einer Remote-Instanz.</p>
+</div>
+<h2 id="anmeldung">Anmeldung<a class="headerlink" href="#anmeldung" title="Permanent link">¶</a></h2>
+<p>Sobald du dich erfolgreich mit einer MCP-Instanz verbunden hast, wirst du nach gültigen Zugangsdaten für die jeweilige
+MCP-Instanz gefragt. Diese Authentifizierung ist notwendig, da mit besonders schützenwerten persönlichen Daten
+gearbeitet wird und diese vor unberechtigtem Zugriff geschützt werden müssen. Die Anmeldemaske sieht wie folgt aus.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/Anmeldebildschirm.png" data-desc-position="bottom"><img alt="Anmeldemaske von Mission Control Paramedic" src="../assets/Anmeldebildschirm.png"></a></p>
+<p>Ihr solltet die Anmeldedaten von eurer Führungskraft erhalten, solltet ihr sie sonst nicht schon kennen. Falls dies
+nicht der Fall ist, fragt bei deiner Führungskraft einfach nach.</p>
+<p>Nach einer erfolgreichen Anmeldung landet ihr dann auf der Startseite.</p>
+<div class="admonition note">
+<p class="admonition-title">Anmerkung</p>
+<p>Die Wiederherstellung des Zugangs eines Kontos mit verlorenen Zugangsdaten ist möglich. Details zur Einrichtung 
+davon werden im Abschnitt zur Installation behandelt. Die Wiederherstellung selbst wird im Fortgeschrittenen Bereich
+erklärt.</p>
+</div>
+<h2 id="startseite">Startseite<a class="headerlink" href="#startseite" title="Permanent link">¶</a></h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/Startseite.png" data-desc-position="bottom"><img alt="Startseite von Mission Control Paramedic" src="../assets/Startseite.png"></a></p>
+<p>Auf der Startseite von Mission Control Paramedic sieht ihr nicht viel, ihr bekommt aber einen guten Überblick über das
+Interface. Dieses ist wie folgt aufgebaut:</p>
+<p>An der linken Seite findet ihr die Navigationsleiste. Diese besteht aus verschiedene Icons bzw. Piktogrammen, die euch
+zu den unterschiedlichen Funktionen führen. Über das unterste Piktogramm in Form einer Liste lässt sich die
+Navigationsleiste ausklappen, sodass ihr auch die Namen der folgenden Einträge lesen könnt:</p>
+<ul>
+<li>Home</li>
+<li>Einsatz-Dashboard</li>
+<li>Patienten-Dashboard</li>
+<li>Einsatztagebuch</li>
+<li>Sanitätsdienste</li>
+<li>Einsatzmittel</li>
+<li>Orte</li>
+<li>Einsatzschlagworte</li>
+<li>Einstellungen</li>
+<li>Schalter ein- und ausklappen der Navigationsleiste, wo im ausgeklappten Zustand auch noch Verbindungsinformationen
+  angezeigt werden.</li>
+</ul>
+<p>In den folgenden Abschnitten wird euch das Einsatz-Dashboard, das Patienten-Dashboard und der Eintrag zu den
+Sanitätsdiensten erklärt, die ihr auch am meisten verwenden werdet. Im Einsatztagebuch dokumentieren die Führungskräfte
+den Einsatz, weshalb man diese Funktion als Helfer normalerweise nicht benötigt. Die anderen Funktionen sind für die
+Verwaltung der Daten in Mission Control Paramedic da. Da ihr im Regelfall eine MCP-Instanz mit einem Sanitätsdienst von
+euren Führungskräften bereitgestellt bekommt, sollten die Daten auch schon passend eingepflegt sein und ihr nichts mehr
+daran ändern müssen.</p>
+<div class="admonition warning">
+<p class="admonition-title">Achtung</p>
+<p>Sei nicht verwundert, wenn die drei Einträge zum Einsatz-Dashboard, Patienten-Dashboard und Einsatztagebuch 
+ausgegraut bzw. deaktiviert sind, wie es im Bild oben auch dargestellt ist. Dies ist kein Fehler, sondern liegt nur
+daran, dass es aktuell noch keinen Sanitätsdienst gibt, der aktiv läuft. Sollte dies nicht der Fall sein, dann wende
+dich an deine Führungskraft, um dies zu klären.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Anmerkung</p>
+<p>Die Einträge zu den Einsatzmitteln, den Orten, den Einsatzschlagwörtern und dem Einsatztagebuch werden im 
+fortgeschrittenem Bereich erklärt.</p>
+</div>
+<p>Zusätzlich zur Navigationsleiste gibt es oben noch eine Statusleiste. Rechts in der Ecke wird euch die aktuelle Uhrzeit
+angezeigt und daneben findet ihr ein Profil-Icon. Wenn ihr darauf klickt, öffnet sich ein kleines Menü dazu. Dort
+findet ihr einen Eintrag mit eurem Nutzernamen, womit ihr auf eurer Nutzerprofil kommen könnt, und einem Eintrag, womit
+ihr euch abmelden könnt. Sollte euer Benutzer Administrator-Rechte in Mission Control Paramedic haben, so wird es noch
+einen weiteren Eintrag "Team" zur Verwaltung des Teams bzw. aller Benutzer geben.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tipp</p>
+<p>Mit einem Klick auf das MCP-Logo oben links in der Statusleiste kommt ihr immer auf die Startseite von Mission 
+Control Paramedic zurück, egal wo ihr euch in der Software befindet.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Anmerkung</p>
+<p>Die Benutzer-/Teamverwaltung wird im fortgeschrittenem Bereich erklärt.</p>
+</div>
+<p>Wenn ihr auf der Startseite noch etwas herunterscrollt, so werdet ihr noch ein paar Hinweise für die Nutzung von Mission
+Control Paramedic finden als auch ein FAQ mit den häufig gestellten Fragen finden.</p>
+<p>Es empfehlt sich, vor Beginn der Arbeit im Einsatz einen Blick über die Übersichtsseite der Sanitätsdienste zu werfen.
+Klicke dazu einfach auf den Eintrag "Sanitätsdienste" und alles Weitere dazu wird im nächsten Abschnitt erklärt.</p>
+<h2 id="verwaltung-von-sanitatsdiensten">Verwaltung von Sanitätsdiensten<a class="headerlink" href="#verwaltung-von-sanitatsdiensten" title="Permanent link">¶</a></h2>
+<p>Auf der Seite zu den Sanitätsdiensten dient zur Verwaltung von Sanitätsdienste. Dort siehst du in der Liste, welche
+Sanitätsdienste alles auf der MCP-Instanz gespeichert sind, mit welcher du dich vorher verbunden hast, wie es auch im
+Bild zu sehen ist.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/Sandienst_Verwaltung.png" data-desc-position="bottom"><img alt="Sanitätsdienstverwaltung" src="../assets/Sandienst_Verwaltung.png"></a></p>
+<p>Zu jedem Sanitätsdienst kann man sich dort in der Ansicht die Details wie z.B. den Namen des Dienstes, den Namen der
+Einsatzleiterin oder des Einsatzleiters oder auch den Einsatzort sehen.</p>
+<p>Wie auch auf dem Bild zu erkennen ist, haben die Einträge auf der linken Seite unterschiedliche Farben. Wenn ein
+Sanitätsdienst mit grauer Schrift dort steht, dann heißt es, dass dieser Sanitätsdienst schon beendet wurde. Ein Eintrag
+mit weißer Schrift und einem grünen Punkt neben an bedeutet, dass dies ein aktiver Sanitätsdienst ist, welcher aktuell
+läuft. Einträge mit weißer Schrift und ohne grünen Punkt sind schon angelegt, aber noch nicht gestartet worden. Dies
+kann zum Beispiel der Fall sein, wenn der Sanitätsdienst schon am Vortag angelegt wurde, um gut vorbereitet in den
+eigentlichen Sanitätsdienst gehen zu können.</p>
+<p>Im Regelfall sollte der Sanitätsdienst von deiner Führungskraft schon angelegt worden sein. Sollte dies nicht der Fall
+sein, so wende dich bitte an sie und kläre dies. Als Helferin oder Helfer hast du auf dieser Übersichtsseite nur die
+Aufgabe sicherzustellen, dass der richtige Sanitätsdienst im MCP ausgewählt ist, der gerade stattfindet.</p>
+<div class="admonition warning">
+<p class="admonition-title">Achtung</p>
+<p>Es kann sehr gut sein, dass mehrere Sanitätsdienste gleichzeitig auf einer MCP-Instanz laufen, z.B. da gleichzeitig
+mehrere Dienste stattfinden oder zusätzlich ein weiterer Test-Dienst angelegt wurde, damit Personen MCP testen 
+können. Stelle sicher, dass du den richtigen Sanitätsdienst auswählst, damit du die dazugehörigen Patienten- und 
+Einsatz-Dashboards als auch das Einsatztagebuch sehen kannst.</p>
+</div>
+<p>Wenn du den richtigen Sanitätsdienst ausgewählt hast, dann kannst du direkt über den Knopf "Dashboard" oder auch dem
+Eintrag "Einsatz-Dashboard" im Menü nutzen, um zum Dashboard des Einsatzes zu kommen. Dieses wird im nächsten Abschnitt
+erklärt.</p>
+<div class="admonition note">
+<p class="admonition-title">Anmerkung</p>
+<p>Die Erstellung und Planung von Sanitätsdiensten wird im fortgeschrittenem Bereich erklärt.</p>
+</div>
+<h2 id="dashboard-eines-sanitatsdienstes">Dashboard eines Sanitätsdienstes<a class="headerlink" href="#dashboard-eines-sanitatsdienstes" title="Permanent link">¶</a></h2>
+<p>Das Dashboard über den Sanitätsdienst gibt euch den Überblick über den gesamten Einsatz und bietet deinen
+Führungskräften die ideale Möglichkeit, alle wichtigen Informationen direkt auf einen Blick zu finden.</p>
+<p>Im Einsatz wird diese Ansicht hauptsächlich von der Einsatzleitung als auch der Funkeinsatzleitung genutzt, falls der 
+Dienst groß genug ist, dass diese aufgeteilt ist. Solltest du nicht Teil der Einsatzleitung sein, so wirst du aller 
+voraussicht auch diese Ansicht nicht benötigen.</p>
+<p>Dieses Interface teilt sich in drei Bereiche auf. Oben rechts gibt es eine Ansicht des Einsatztagebuchs. Dort werden
+immer die neusten Einträge angezeigt, die eingetragen werden. Links daneben gibt es einen Bereich mit einer Übersicht
+über alle aktuell laufende Einsätze. Diese können dort nicht nur angelegt werden, sondern es können dann auch Daten über
+den Einsatz eingetragen werden. Im unteren Bereich gibt es eine Übersicht aller Einsatzmittel, die sich im Dienst
+befinden. Über das Suchfeld in der Ecke können die im Bereich "Einsatzmittel" hinterlegten Einsatzmittel gesucht und zum
+aktuellen Sanitätsdienst hinzugefügt werden. Zusätzlich zu den Einsatzmitteln kannst du auch dir auch beliebige Bereiche
+erstellen, wozu einfach mit der rechten Maus-Taste das Menü öffnen musst und einen Eintrag erstellen kannst. Diesen
+Eintrag kannst du dann nach Belieben benennen, um dir deine eigene Sortierung zu schaffen. Des Weiteren kannst du
+Drag-and-Drop nutzen, um die jeweiligen Einsatzmittel und Bezeichnungen beliebig auf der freien Fläche zu verschieben.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/Dashboard.png" data-desc-position="bottom"><img alt="Dashboard eines Sanitätsdienstes" src="../assets/Dashboard.png"></a></p>
+<p>Wie du in der Abbildung zum Beispiel sehen kannst, hat jedes Einsatzmittel auch einen Status nach dem Funkmeldesystem
+(FMS), welches neben dem Einsatzmittel farblich hinterlegt angezeigt wird. Den Status eines Einsatzmittels kann man auf
+zwei Wegen ändern, entweder über das Popup-Menü für jeden Eintrag, welches sich mit einem Rechtsklick öffnet, oder über
+die Tastenkürzel ändern. Im Popup-Menü bekommt man die Auswahl aller verfügbaren Status-Codes, wo man den passenden 
+Eintrag auswählen kann, während man bei den Tastenkürzeln das passende Einsatzmittel ausgewählt haben muss, um dafür den
+Status zu ändern.</p>
+<p>Jede Änderung eines FMS-Status-Codes für ein Einsatzmittel erzeugt einen Eintrag im Einsatztagebuch.</p>
+<div class="admonition tip">
+<p class="admonition-title">Nützliches Wissen</p>
+<p>Die Farben der einzelnen FMS-Status-Codes als auch die Tastenkürzel können in den Einstellungen nach belieben 
+geändert werden!</p>
+</div>
+<p>Wird nun deinen Führungskräften bzw. der Einsatzleitung ein Einsatz gemeldet, so kann diese direkt einen Einsatz über
+den Knopf "Einsatz anlegen" anlegen. Dabei ist es egal, ob dieser Einsatz von der Veranstaltungsleitung, einem
+Security-Team oder doch direkt vom eigenem Fußteam per Funk gemeldet wird. Details zur Meldung als auch Daten zur
+Patientin oder zum Patienten können dort direkt eingegeben werden. Falls dort ein Einsatzmittel (z.B. Fußteam) direkt
+vor Ort ist oder diese als Einsatzmittel zu diesem Einsatz disponiert werden, so kann das Einsatzmittel direkt aus der
+unteren Übersicht per Drag-and-Drop hochgezogen werden und wird diesem Einsatz zugeordnet. Dieses Einsatzmittel bleibt
+außerdem unverändert unten in der Übersicht stehen, sodass es nicht verloren gehen kann. Natürlich können auch mehrere
+Einsatzmittel dem Einsatz zugeordnet werden, falls der Bedarf dafür da ist.</p>
+<p>Laufende Einsätze können in dieser Ansicht auch wieder geschlossen werden. Dafür muss der passende Einsatz aus der Liste
+ausgewählt werden, falls es mehrere gibt, und kann dann über den entsprechenden Stopp-Knopf beendet werden. Sollten zu
+diesem Zeitpunkt noch Einsatzmittel zu diesem Einsatz zugeordnet sein, so werden sie beim Beenden des Einsatzes aus dem
+Einsatz entfernt und auf den Status 1, einsatzbereit, gesetzt. Dieses Verhalten passiert auch, wenn Einsatzmittel
+manuell per Drag-and-Drop aus dem Einsatz entfernt werden, auch wenn dieser noch aktiv ist.</p>
+<p>Sollte es bei einem Einsatz Patienten geben, so werden diese, wie schon vorhin erwähnt, auch direkt im Einsatz 
+angelegt. Falls diese Patienten nicht direkt vor Ort versorgt werden können und dann zur Sanitätsstation gebracht 
+werden, so kann dann direkt in der Ansicht auch direkt der Transport und das Transportziel eingetragen werden. Falls ihr
+eure Sanitätsstation als eigene "Lage" in der Patientenübersicht eingetragen habt und die Sanitätsstation als Ziel eures
+Transportes auswählt, so erscheint die Patientin oder der Patient dann direkt in der Patientenübersicht der 
+Sanitätsstation.</p>
+<p>Es kommt durchaus vor, dass sich Patientinnen und Patienten auch direkt bei der Sanitätsstation vorstellen, dann muss 
+dafür kein Einsatz angelegt werden. Diese können auch direkt in der Patientenübersicht angelegt werden. Alle Details zum
+Vorgehen als auch die Patientenübersicht selbst werden im nächsten Abschnitt erklärt.</p>
+<h2 id="patientenubersicht">Patientenübersicht<a class="headerlink" href="#patientenubersicht" title="Permanent link">¶</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Achtung</p>
+<p>An diesem Abschnitt wird aktuell gearbeitet. Dieser kann daher gegebenenfalls nicht vollständig sein oder auch 
+Fehler enthalten.</p>
+</div>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/Patientenuebersicht.png" data-desc-position="bottom"><img alt="Patientenübersicht" src="../assets/Patientenuebersicht.png"></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2024 - 2025 Alexander Kaschta | Verfügbar unter der CC BY 4.0
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/AlexanderKaschta/mcp_docs" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.path", "content.code.annotate", "content.code.copy", "content.code.select", "navigation.tabs"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
